@@ -15,7 +15,7 @@ Owned it helps you create powerful social and referral campaigns on your WooComm
 
 
 
-<b> Suggestions / Feature Request </b>
+<p style = "font-weight:bold" >Suggestions / Feature Request </p>
 
 If you have suggestions or a new features request, feel free to get in touch with me via the contact form of our website
 
