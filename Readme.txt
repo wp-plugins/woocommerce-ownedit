@@ -13,7 +13,7 @@ Owned it helps you create powerful social and referral campaigns on your WooComm
 
 https://www.ownedit.com
 
-Suggestions / Feature Request
+<b>Suggestions / Feature Request</b>
 
 If you have suggestions or a new features request, feel free to get in touch with me via the contact form of our website
 
