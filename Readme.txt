@@ -13,6 +13,13 @@ Owned it helps you create powerful social and referral campaigns on your WooComm
 
 https://www.ownedit.com
 
+Suggestions / Feature Request
+
+If you have suggestions or a new features request, feel free to get in touch with me via the contact form of our website
+
+You can also follow us on Twitter! @owned_it 
+
+
 == Installation ==
 
 Download the WooCommerce - Owned it Checkout Extension, 
@@ -25,7 +32,7 @@ Download the WooCommerce - Owned it Checkout Extension,
 
 Note: A store ID is generated for each store you add to Owned it and this can be found on Owned it Dashboard -> Account Settings -> Store Settings Tab.
 
-Verify Integration
+Verify your Integration
 After completing the installation, you should verify that the integration is working properly. For this do a test check out from your store using the email, verify@ownedit.com as the customer email id. At the order confirmation page, you should be presented with integration success message.
 
 
