@@ -13,7 +13,9 @@ Owned it helps you create powerful social and referral campaigns on your WooComm
 
 <a target="_blank" href="https://www.ownedit.com"> Owned it Platfrom </a>
 
-<b>Suggestions / Feature Request</b>
+
+
+<b> Suggestions / Feature Request </b>
 
 If you have suggestions or a new features request, feel free to get in touch with me via the contact form of our website
 
