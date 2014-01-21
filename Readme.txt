@@ -1,4 +1,4 @@
-=== Owned it Social Marketing Automation  Platform for WooCommerce ===
+=== Owned it Social Marketing Automation Platform - WooCommerce Addon ===
 
 Tags: Owned it, social automation, Social referrals, eCommerce marketing, Facebook plugin, twitter, google plus, social referral platform, social marketing,social media, social marketing, email marketing, facebook likes, facabook fan.
 Requires at least: Wordpress 3.0
