@@ -1,6 +1,6 @@
-=== Owned it Social Marketing Automation Platform - WooCommerce Addon ===
+=== Owned it Social Marketing Automation Platform - WooCommerce Extension ===
 
-Tags: Owned it, social automation, Social referrals, eCommerce marketing, Facebook plugin, twitter, google plus, social referral platform, social marketing,social media, social marketing, email marketing, facebook likes, facabook fan.
+Tags: Owned it, Social automation, Social referrals, eCommerce marketing, Facebook plugin, Twitter, Google plus, Social Referrals, Social Marketing, Social Media, Social Marketing, Email marketing, Facebook Likes, Facabook fan, Twitter Followers.
 Requires at least: Wordpress 3.0
 Tested up to: 3.6.1
 Stable tag: 1.0
@@ -27,9 +27,7 @@ Note: A store ID is generated for each store you add to Owned it and this can be
 
 Verify Integration
 
-After completing the installation, you should verify that the integration is working properly.
-For this do a test check out from your store using the email, verify@ownedit.com as the customer email id. 
-At the order confirmation page, you should be presented with a default offer.
+After completing the installation, you should verify that the integration is working properly. For this do a test check out from your store using the email, verify@ownedit.com as the customer email id. At the order confirmation page, you should be presented with integration success message.
 
 
 == Upgrade Notice ==
@@ -41,9 +39,5 @@ Use word press version 3.0 above
 Added link 'Settings' in the plugin's actions section
 
 == Frequently Asked Questions ==
+
 You can get support from support@ownedit.com for any query
-
-
-
-
-
