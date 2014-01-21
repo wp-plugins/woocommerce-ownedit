@@ -11,7 +11,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 Owned it helps you create powerful social and referral campaigns on your WooCommerce store. This checkout extension facilitates customer referrals, increase followers on different social networks such as Facebook, Twitter, Google Plus, thereby attracting more traffic to your store and leading to more sales.
 
-
 https://www.ownedit.com
 
 == Installation ==
