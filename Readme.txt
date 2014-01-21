@@ -16,7 +16,7 @@ https://www.ownedit.com
 
 == Installation ==
 
-After setting up a Owned it account, download the WooCommerce Owned it Checkout Extension.
+After setting up an Owned it account, download the WooCommerce - Owned it Checkout Addon.
 
 1. Use the automatic plugin installer or your FTP program to upload plugin files to your wp-content/plugins/ownedit directory. Make sure the source files reside in this directory. 
 2. Activate the plugin from the 'Plugins' menu in WordPress
