@@ -2,7 +2,8 @@
 /*
     Plugin Name: Owned it - Social Marketing Platform
     Plugin URI: https://www.ownedit.com
-    Description:  Owned it helps you create powerful social and referral campaigns on your WooCommerce store. This checkout extension facilitates customer referrals, increase followers on different social networks such as Facebook, Twitter, Google Plus, thereby attracting more traffic to your store and leading to more sales. Steps 1) Install WooCommerce, Get your Store ID by signing up for <a href="https://www.ownedit.com">Owned it</a>, 2) Enter your Store ID on the <a href='options-general.php?page=ownedit-plugin'>Settings->Owned it</a> menu, and 3) Click on the Activate link to the left of this description.
+    Description:  Owned it helps you create powerful social and referral campaigns on your WooCommerce store. 
+    This checkout extension facilitates customer referrals, increase followers on different social networks such as Facebook, Twitter, Google Plus, thereby attracting more traffic to your store and leading to more sales. Steps 1) Install WooCommerce, Get your Store ID by signing up for <a href="https://www.ownedit.com">Owned it</a>, 2) Enter your Store ID on the <a href='options-general.php?page=ownedit-plugin'>Settings->Owned it</a> menu, and 3) Click on the Activate link to the left of this description.
     Version: 1.0
     Author: Owned it Ltd
     Author URI: https://www.ownedit.com
@@ -13,7 +14,7 @@ global $wp_version;
 
 if(!version_compare($wp_version, '3.0', '>='))
 {
-    die("Owned it plugin requires WordPress 3.0 or above. <a href='http://codex.wordpress.org/Upgrading_WordPress'>Please update!</a>");
+    die("Owned it extension requires WordPress 3.0 or above. <a href='http://codex.wordpress.org/Upgrading_WordPress'>Please update!</a>");
 }
 // END - Version check
 
