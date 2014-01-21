@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 Owned it helps you create powerful social and referral campaigns on your WooCommerce store. This checkout extension facilitates customer referrals, increase followers on different social networks such as Facebook, Twitter, Google Plus, thereby attracting more traffic to your store and leading to more sales.
 
-<a target="_blank" href="https://www.ownedit.com"> Owned it Platfrom </a>
+<a target="_blank" href="https://www.ownedit.com"> Owned it Platform </a>
 
 
 
@@ -26,13 +26,27 @@ You can also follow us on Twitter! <a target="_blank" href="https://twitter.com/
 
 Download the WooCommerce - Owned it Checkout Extension, 
 
-1. Use the automatic plugin installer or your FTP program to upload plugin files to your wp-content/plugins/ownedit directory. Make sure the source files reside in this directory. 
-2. Activate the plugin from the 'Plugins' menu in WordPress
-3. Create an account with Ownedit.com
-4. Log in to Owned it -> Click on settings -> Owned it to enter Store ID.
-5. Enter your Owned it store ID.
+Stage 1
 
-Note: A store ID is generated for each store you add to Owned it and this can be found on Owned it Dashboard -> Account Settings -> Store Settings Tab.
+1. Click 'Add New' option from your Wordpress plugin page after login to your Wordpress installation
+
+2. Search for 'Owned it WooCommerce' extension.
+
+3. Install the plugin, go to Stage 2
+
+or
+
+1.Download the plugin from Wordpress Plugin Directory
+
+2. Unzip the folder, and use your FTP program to upload plugin files to your Wordpress plugins (wp-content/plugins/) directory.
+
+3. Activate the plugin from the 'Plugins' menu in WordPress
+
+Stage 2
+
+1. Enter your Owned it store ID to your Plugin.  (Go to Wordpress Settings,  open Owned it and enter the store ID)
+
+Note: Owned it store ID is generated for each store you add to Owned it and this can be found on Owned it Dashboard -> Account Settings -> Store Settings Tab.
 
 Verify your Integration
 After completing the installation, you should verify that the integration is working properly. For this do a test check out from your store using the email, verify@ownedit.com as the customer email id. At the order confirmation page, you should be presented with integration success message.
