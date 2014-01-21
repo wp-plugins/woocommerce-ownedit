@@ -28,7 +28,7 @@ Download the WooCommerce - Owned it Checkout Extension,
 
 Stage 1
 
-1. Click 'Add New' option from your Wordpress plugin page after login to your Wordpress installation
+1. Click 'Add New' option from your WordPress plugin page after login to your WordPress installation
 
 2. Search for 'Owned it WooCommerce' extension.
 
@@ -36,15 +36,15 @@ Stage 1
 
 or
 
-1. Download the plugin from Wordpress Plugin Directory
+1. Download the plugin from WordPress Plugin Directory
 
-2. Unzip the folder, and use your FTP program to upload plugin files to your Wordpress plugins (wp-content/plugins/) directory.
+2. Unzip the folder, and use your FTP program to upload plugin files to your WordPress plugins (wp-content/plugins/) directory.
 
 3. Activate the plugin from the 'Plugins' menu in WordPress
 
 Stage 2
 
-1. Enter your Owned it store ID to your Plugin.  (Go to Wordpress Settings,  open Owned it and enter the store ID)
+Enter your Owned it store ID to your Plugin. (Go to WordPress Settings, open Owned it and enter the store ID)
 
 Note: Owned it store ID is generated for each store you add to Owned it and this can be found on Owned it Dashboard -> Account Settings -> Store Settings Tab.
 
