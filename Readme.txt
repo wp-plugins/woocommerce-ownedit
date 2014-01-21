@@ -36,7 +36,7 @@ Stage 1
 
 or
 
-1.Download the plugin from Wordpress Plugin Directory
+1. Download the plugin from Wordpress Plugin Directory
 
 2. Unzip the folder, and use your FTP program to upload plugin files to your Wordpress plugins (wp-content/plugins/) directory.
 
