@@ -1,4 +1,4 @@
-=== Owned it Social Marketing Automation Platform - WooCommerce Extension ===
+=== Owned it - Social Marketing Platform - WooCommerce Extension ===
 
 Tags: Owned it, Social automation, Social referrals, eCommerce marketing, Facebook plugin, Twitter, Google plus, Social Referrals, Social Marketing, Social Media, Social Marketing, Email marketing, Facebook Likes, Facabook fan, Twitter Followers.
 Requires at least: Wordpress 3.0
