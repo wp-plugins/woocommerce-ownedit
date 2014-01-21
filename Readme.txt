@@ -14,7 +14,6 @@ Owned it helps you create powerful social and referral campaigns on your WooComm
 <a target="_blank" href="https://www.ownedit.com"> Owned it Platform </a>
 
 
-
 <p style = "font-weight:bold" >Suggestions / Feature Request </p>
 
 If you have suggestions or a new features request, feel free to get in touch with me via the contact form of our website
@@ -24,9 +23,17 @@ You can also follow us on Twitter! <a target="_blank" href="https://twitter.com/
 
 == Installation ==
 
-Download the WooCommerce - Owned it Checkout Extension, 
 
-Stage 1
+Stage 1 
+
+
+1. Download the plugin from WordPress Plugin Directory
+
+2. Unzip the folder, and use your FTP program to upload plugin files to your WordPress plugins (wp-content/plugins/) directory.
+
+3. Activate the plugin from the 'Plugins' menu in WordPress, go to Stage 2
+
+or
 
 1. Click 'Add New' option from your WordPress plugin page after login to your WordPress installation
 
@@ -34,13 +41,6 @@ Stage 1
 
 3. Install the plugin, go to Stage 2
 
-or
-
-1. Download the plugin from WordPress Plugin Directory
-
-2. Unzip the folder, and use your FTP program to upload plugin files to your WordPress plugins (wp-content/plugins/) directory.
-
-3. Activate the plugin from the 'Plugins' menu in WordPress
 
 Stage 2
 
