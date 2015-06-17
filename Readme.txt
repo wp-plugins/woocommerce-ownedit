@@ -3,7 +3,7 @@
 Tags: Owned it, Converstion optimization, Lead Generation, Shoping cart Abandonment, Social Referrals, Social Following, Facebook Likes, Facabook fan, Twitter Followers.
 Requires at least: Wordpress 3.0
 Tested up to: 4.2.2
-Stable tag: 2.0
+Stable tag: 1.0
 Contributors: Owned it Ltd
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
