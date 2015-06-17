@@ -3,7 +3,7 @@
     Plugin Name: Owned it - Social Marketing Platform
     Plugin URI: https://www.ownedit.com
     Description:  Owned it helps you create powerful social and referral campaigns on your WooCommerce store. 
-    Version: 1.0
+    Version: 2.0
     Author: Owned it Ltd
     Author URI: https://www.ownedit.com
 */
