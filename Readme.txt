@@ -55,16 +55,22 @@ Note: Owned it store ID is generated for each store you add to Owned it and this
 Use word press version 3.0 above
 
 == Screenshots ==
-
+1. Use Owned It to
+2. Insights
+3. How it works?
 == Changelog ==
 
 == Frequently Asked Questions ==
 = 2.0 =
-* Fix: Readme file was changed.
-* Update: Included pre puchase and post purchase scripts
+<ul>
+	<li>Readme file was changed.</li>
+	</li>Included pre puchase and post purchase scripts</li>
+</ul>
 
 = 1.0 =
-* New: Initial release
+<ul>
+	<li>Initial release</li>
+</ul>
 
 
 If you have suggestions or questions, feel free to get in touch with us via the contact form of our website or via email - support@ownedit.com 
