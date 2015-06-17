@@ -59,5 +59,10 @@ Use word press version 3.0 above
 == Changelog ==
 
 == Frequently Asked Questions ==
+= 2.0 =
+* Fix: Readme file was changed.
+* Update: Included pre puchase and post purchase scripts
 
+= 1.0 =
+* New: Initial release
 If you have suggestions or questions, feel free to get in touch with us via the contact form of our website or via email - support@ownedit.com 
