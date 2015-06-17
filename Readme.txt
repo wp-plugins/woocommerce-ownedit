@@ -59,6 +59,10 @@ Use word press version 3.0 above
 
 == Changelog ==
 
+<ul>
+	<li>Initial release</li>
+</ul>
+
 == Frequently Asked Questions ==
 
 You can get support from support@ownedit.com for any query
