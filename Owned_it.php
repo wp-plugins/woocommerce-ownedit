@@ -75,18 +75,32 @@ if(!class_exists('Ownedit')) :
             * Add Hooks
             */
             register_activation_hook(__FILE__, array(&$this, 'install'));  			
-			
-			//Run on thankyou page
-			add_action('woocommerce_thankyou', array(&$this, 'ownedit_scripts'));	
-			
-			//Run on every page
-			add_action('wp_head', array(&$this, 'ownedit_prepurchase_script'));	
+
+			add_action('woocommerce_thankyou', array(&$this, 'ownedit_scripts'));		
 
             add_action('admin_init', array(&$this, 'init'));						
 
             add_action('admin_menu', array(&$this, 'menu'));						
 
             add_action('widgets_init', 'ownedit_widget_register_widgets');			
+
+
+            function admin_scripts() {
+
+                $wp_ownedit_plugin_url = plugins_url('wp-ownedit.js', $GLOBALS['ownedit_file']);
+                wp_register_script( 'ownedit-admin-js', $wp_ownedit_plugin_url ,array('jquery-ui-core','jquery-ui-dialog','jquery-ui-widget','json2'));
+                wp_enqueue_script('ownedit-admin-js');
+            }
+
+            function admin_styles() {
+
+                wp_register_style( 'jquery-style', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/smoothness/jquery-ui.css', true);
+                wp_enqueue_style( 'jquery-style' );
+
+            }
+
+            add_action( 'admin_print_scripts-settings_page_ownedit-plugin', 'admin_scripts' );
+            add_action( 'admin_print_styles-settings_page_ownedit-plugin', 'admin_styles' );
            
         }
 
@@ -115,40 +129,17 @@ if(!class_exists('Ownedit')) :
         * Arg(0): null
         * Return: void
         */
-        public function ownedit_prepurchase_script()
-        {
-        	//Checking order confirmation page or not
-        	if(!is_order_received_page()){ 
-        	$options = $this->get_options();
-                $storeid = trim($options['storeid']);
-				if($storeid){
-					$order_total = floatval( preg_replace( '#[^\d.]#', '', WC()->cart->get_cart_total() ) );
-        		 	$owneditJS = '';
-	  				$owneditJS .= "<script type = \"text/javascript\">";
-	  				$owneditJS .= "var _ownedit = _ownedit || {};";
-	  				$owneditJS .= "_ownedit['custom_variables'] = {
-			   					total_products : '".WC()->cart->cart_contents_count."',
-			   					order_total	  : '". $order_total ."'
-		   						};";
-					$owneditJS .= "var ss = document.createElement('script');ss.src = 'https://cdn.ownedit.com/ownedit_js/ownedit.js?store_id=".$storeid."&prepurchase=true'
-						   ss.type = 'text/javascript';ss.async = 'true';var s = document.getElementsByTagName('head')[0];s.appendChild(ss);";
-					$owneditJS.="</script>";
-					echo $owneditJS;
-				}
-        	}
-        	
-        }
         public function ownedit_scripts($order_id)
         {
                 $options = $this->get_options();
                 $storeid = trim($options['storeid']);
 				if($storeid){
-					$owneditJS = "<script type=\"text/javascript\" src=\"https://cdn.ownedit.com/ownedit_js/ownedit.js?store_id=".$storeid."&anchor=anchor\"></script>";
+					$owneditJS = "<script type=\"text/javascript\" src=\"https://www.ownedit.com/ownedit_js/ownedit.js?store_id=".$storeid."&anchor=anchor\"></script>";
 			$arr = array();
 			$order = new WC_Order( $order_id );
 			$arr['order_id'] =$order->get_order_number();
 			$arr['customer_email'] = $order->billing_email;
-			$arr['order_value'] = $order->get_total();
+			$arr['order_value'] = $order->get_order_total();
 			$arr['order_currency'] = get_option( 'woocommerce_currency' );
 	      	$arr['store_name']= get_option('blogname');
 			$products = array();

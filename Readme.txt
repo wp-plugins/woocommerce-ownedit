@@ -1,23 +1,22 @@
-=== Owned it - Conversation Rate Optimization  - WooCommerce Extension ===
+=== Owned it - Social Marketing Platform - WooCommerce Extension ===
 
-Tags: Owned it, Converstion optimization, Lead Generation, Shoping cart Abandonment, Social Referrals, Social Following, Facebook Likes, Facabook fan, Twitter Followers.
+Tags: Owned it, Social automation, Social referrals, eCommerce marketing, Facebook plugin, Twitter, Google plus, Social Referrals, Social Marketing, Social Media, Social Marketing, Email marketing, Facebook Likes, Facabook fan, Twitter Followers.
 Requires at least: Wordpress 3.0
-Tested up to: 4.2.2
-Stable tag: 2.0
+Tested up to: 3.6.1
+Stable tag: 1.0
 Contributors: Owned it Ltd
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
+Owned it helps you create powerful social and referral campaigns on your WooCommerce store. This checkout extension facilitates customer referrals, increase followers on different social networks such as Facebook, Twitter, Google Plus, thereby attracting more traffic to your store and leading to more sales.
+
+<a target="_blank" href="https://www.ownedit.com"> Owned it Platform </a>
 
 
-Owned it is an easy to use on-store conversion optimization tool that helps you to create targeted and personalized marketing campaigns for your visitors and customers. Owned it provides you with its award winning technology to run a variety of campaigns such as Exit prevention, Happy hour promotions, Deal of the day, Product notifications, Stock level indicator, Cross selling, Up selling, Location based promotions, Preventing cart abandonment and many more in just a few clicks.
+<p style = "font-weight:bold" >Suggestions / Feature Request </p>
 
-Read More at www.ownedit.com
-
-Suggestions / Feature Request
-
-If you have suggestions or a new features request, feel free to get in touch with us via the contact form of our website
+If you have suggestions or a new features request, feel free to get in touch with me via the contact form of our website
 
 You can also follow us on Twitter! <a target="_blank" href="https://twitter.com/owned_it"> @owned_it </a> 
 
@@ -49,6 +48,8 @@ Enter your Owned it store ID to your Plugin. (Go to WordPress Settings, open Own
 
 Note: Owned it store ID is generated for each store you add to Owned it and this can be found on Owned it Dashboard -> Account Settings -> Store Settings Tab.
 
+Verify your Integration
+After completing the installation, you should verify that the integration is working properly. For this do a test check out from your store using the email, verify@ownedit.com as the customer email id. At the order confirmation page, you should be presented with integration success message.
 
 
 == Upgrade Notice ==
@@ -60,4 +61,4 @@ Use word press version 3.0 above
 
 == Frequently Asked Questions ==
 
-If you have suggestions or questions, feel free to get in touch with us via the contact form of our website or via email - support@ownedit.com 
+You can get support from support@ownedit.com for any query
