@@ -60,7 +60,6 @@ Use word press version 3.0 above
 3. How it works?
 == Changelog ==
 
-== Frequently Asked Questions ==
 = 2.0 =
 <ul>
 	<li>Readme file was changed.</li>
@@ -73,4 +72,6 @@ Use word press version 3.0 above
 </ul>
 
 
+== Frequently Asked Questions ==
 If you have suggestions or questions, feel free to get in touch with us via the contact form of our website or via email - support@ownedit.com 
+
