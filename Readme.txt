@@ -138,20 +138,4 @@ If you have suggestions or questions, feel free to get in touch with us via the 
 
 
 
-== Changelog ==
-
-= 2.0 =
-<ul>
-	<li>Readme file was changed.</li>
-	</li>Included pre puchase and post purchase scripts</li>
-</ul>
-
-= 1.0 =
-<ul>
-	<li>Initial release</li>
-</ul>
-
-
-== Frequently Asked Questions ==
-If you have suggestions or questions, feel free to get in touch with us via the contact form of our website or via email - support@ownedit.com 
 
