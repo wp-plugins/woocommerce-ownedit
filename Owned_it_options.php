@@ -32,17 +32,14 @@ button {
     <?php screen_icon(); ?>
     <form action="options.php" method="post" id=<?php echo $this->plugin_id; ?>"_options_form" name=<?php echo $this->plugin_id; ?>"_options_form">
     <?php settings_fields($this->plugin_id.'_options'); ?>
-    <h2>Owned it Social Referral Platform &raquo; Options</h2>
-	<p class="inf"> A store ID is generated for each store you add to Owned it and this can be found on Owned it Dashboard -> Account Settings -> Store Settings Tab.
+    <h2>Owned it &raquo; Settings</h2>
+	<p class="inf"> Please enter your store ID, a store ID is generated for each store you add to Owned it and this can be found on Owned it Dashboard -> Account Settings -> Store Settings Tab.
 		</p>
     <table width="550" border="0" cellpadding="5" cellspacing="5" style="margin-top:100px;margin-left:50px;"> 
 	<tr>
-        <td width="144" height="16" align="right" style="vertical-align: top;"><label style="font-weight:600;" for="<?php echo $this->plugin_id; ?>[storeid]">Store ID:</label> </td>
-        <td id="key-holder" width="366" style="padding:5px;"><input placeholder="Please Enter Store ID" id="storeid" name="<?php echo $this->plugin_id; ?>[storeid]" type="text" value="<?php echo $options['storeid']; ?>"  /></td>
-    </tr>
-    <tr>
-	<td></td>
-     <td > <input type="submit" name="submit" value="Save Store ID" class="button-primary" style="margin-top:20px;margin-left:40px;"/></td>
+        <td width="144" height="16" align="right" style="vertical-align: top;padding-top:9px;"><label style="font-weight:600;font-size:15px;" for="<?php echo $this->plugin_id; ?>[storeid]">Store ID:</label> </td>
+        <td id="key-holder" width="366" style="padding:5px;margin:0px;width:100%;"><input placeholder="Please Enter Store ID" id="storeid" name="<?php echo $this->plugin_id; ?>[storeid]" type="text" value="<?php echo $options['storeid']; ?>"  /></td>
+		 <td > <input type="submit" name="submit" value="Save" class="button-primary"/></td>
     </tr>
     </table>
     </form>
