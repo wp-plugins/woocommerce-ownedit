@@ -1,8 +1,8 @@
 <?php
 /*
-    Plugin Name: Owned it - Social Marketing Platform
+    Plugin Name: Owned it - Conversation Rate Optimization
     Plugin URI: https://www.ownedit.com
-    Description:  Owned it helps you create powerful social and referral campaigns on your WooCommerce store. 
+    Description:  Owned it is an easy to use on-store conversion optimization tool that helps you to create targeted and personalized marketing campaigns for your visitors and customers.
     Version: 2.0
     Author: Owned it Ltd
     Author URI: https://www.ownedit.com
