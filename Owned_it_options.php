@@ -37,7 +37,7 @@ button {
 		</p>
     <table width="550" border="0" cellpadding="5" cellspacing="5" style="margin-top:100px;margin-left:50px;"> 
 	<tr>
-        <td width="144" height="16" align="right" style="vertical-align: top;padding-top:9px;"><label style="font-weight:600;font-size:15px;" for="<?php echo $this->plugin_id; ?>[storeid]">Store ID:</label> </td>
+        <td width="144" height="16" align="right" style="vertical-align: top;padding-top:9px;"><label style="font-weight:600;font-size:15px;" for="<?php echo $this->plugin_id; ?>[storeid]">Your Store ID:</label> </td>
         <td id="key-holder" width="366" style="padding:5px;margin:0px;width:100%;"><input placeholder="Please Enter Store ID" id="storeid" name="<?php echo $this->plugin_id; ?>[storeid]" type="text" value="<?php echo $options['storeid']; ?>"  /></td>
 		 <td > <input type="submit" name="submit" value="Save" class="button-primary"/></td>
     </tr>
